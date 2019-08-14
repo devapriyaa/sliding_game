@@ -16,3 +16,14 @@
     margin: 2px;
     font-size: 30px;
 }
+.square:disabled,
+square[disabled]{
+    height: 100px;
+    width: 100px;
+    background-color: #878787;
+    -webkit-text-fill-color: aliceblue;
+    border: 0;
+    margin: 2px;
+    font-size: 30px ;
+    -webkit-text-fill-color: #878787
+}
